@@ -3,10 +3,29 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntenseGP-ESGTech/ECOA-Dashboard---Squad-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IntenseGP-ESGTech/ECOA-Dashboard---Squad-2/issues"
+  },
+  "homepage": "https://github.com/IntenseGP-ESGTech/ECOA-Dashboard---Squad-2#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
 }
